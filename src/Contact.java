@@ -11,8 +11,8 @@ public class Contact {
     @Override
     public int hashCode() {
         int result = 17;
-        result = 31 * result + name.hashCode();
-        result = 31 * result + Integer.getInteger(phone.substring(3));
+        result = 31 * result + (this.name != null ? name.hashCode() : 0);
+        result = 31 * result + (this.phone != null ? phone.hashCode() : 0);
         return result;
     }
 

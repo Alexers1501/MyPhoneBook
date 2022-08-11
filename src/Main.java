@@ -19,6 +19,23 @@ public class Main {
         PhoneBook.searchContactByNumber("79089569432");
         PhoneBook.searchContactByNumber("79083069432");
 
+        //epirement
+//        Contact check = new Contact("Dima", "79089534576");
+//        System.out.println(check.equals(cont5));
+//        System.out.println(check == cont5);
+//
+//        System.out.println(PhoneBook.book.get("Work").contains(check));
+//        check.name = "Vasya";
+//        System.out.println(check.equals(cont5));
+//        System.out.println(check == cont5);
+//        System.out.println(check.hashCode());
+//        System.out.println(cont5.hashCode());
+//        cont5.name = "Vasya";
+//        System.out.println(check.equals(cont5));
+//        System.out.println(check == cont5);
+//        System.out.println(check.hashCode());
+//        System.out.println(cont5.hashCode());
+
 
     }
 }
